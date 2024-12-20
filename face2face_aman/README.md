@@ -4,7 +4,7 @@ source .myenve/bin/activate <br />
 <br />
 
 Install Required Libraries : <br />
-pip install numpy opencv-python torch torchvision matplotlib <br />
+pip install numpy opencv-python torch torchvision matplotlib tensorflow <br />
 <br />
 
 INSTALL YOLO : <br />
