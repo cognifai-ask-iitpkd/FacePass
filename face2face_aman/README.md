@@ -1,6 +1,6 @@
 first create a virtual environment : <br />
 python3.12 -m venv .myenve <br />
-source myenve/bin/activate <br />
+source .myenve/bin/activate <br />
 <br />
 
 Install Required Libraries : <br />
