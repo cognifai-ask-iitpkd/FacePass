@@ -7,10 +7,11 @@ Install Required Libraries : <br />
 pip install numpy opencv-python torch torchvision matplotlib <br />
 <br />
 
-imstall yolo : <br />
+INSTALL YOLO : <br />
 git clone https://github.com/ultralytics/yolov5.git <br />
 cd yolov5 <br />
 pip install -r requirements.txt <br />
 <br />
 
 
+run the main.py file
