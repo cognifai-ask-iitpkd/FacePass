@@ -25,7 +25,11 @@ This project implements a face authentication system that uses a YOLO-based face
   YOLOv5: For face detection.
   VGG16: For facial feature extraction.
   Cosine Similarity: To compute the similarity between the input face and the database faces.
-    
+  
+## **download the model file**
+1. access this url "http://www.robots.ox.ac.uk/~albanie/models/pytorch-mcn/vgg_face_dag.pth"
+2. Download this model, and place it in the VGG folder of the project 
+
 ## **Usage**
 1. Install all the requirements
    > pip install -r requirements.txt
