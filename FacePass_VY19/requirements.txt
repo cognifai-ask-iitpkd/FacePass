@@ -1,1 +1,6 @@
-
+torch>=1.10.0
+torchvision>=0.11.0
+opencv-python
+numpy
+Pillow
+yolo5face
