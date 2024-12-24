@@ -15,7 +15,7 @@ import time
 def fpmain(thres, folderpath):
     FaceDB = FaceDatabase(thres, folderpath)
     while(1):
-        flag=int(input("Do you want to take photo from your camera directly (1) or\ndo you have a jpg/png/jpeg file?(0):    "))
+        flag=int(input("Do you want to take photo from your camera directly(1) or do you have a jpg/png/jpeg file?(0):    "))
         if flag:
             frame = camcapture()
             frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -24,7 +24,7 @@ def fpmain(thres, folderpath):
             yoloimg = yolo(pil_image)
             lock = FaceDB(yoloimg)
         else:
-            filename=input("filename? :")
+            filename=input("input the filename :")
             inp = Image.open(filename).convert('RGB')
             yoloimg = yolo(inp)
             lock = FaceDB(yoloimg)
@@ -34,7 +34,7 @@ def fpmain(thres, folderpath):
         else:
             print("User not registered")
         
-        inn=int(input("Do you want to try again?: "))
+        inn=int(input("Do you want to try again? Yes (1)/ No(0) : "))
         if not inn:
             break
         else:
